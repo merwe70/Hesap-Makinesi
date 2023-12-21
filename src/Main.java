@@ -25,9 +25,11 @@ public class Main {
             case(3):
                 System.out.println("Sonuç : " + (number1*number2));
                 break;
-            default:
+            case(4):
                 System.out.println("Sonuç : " + (number1/number2));
                 break;
+            default:
+                System.out.println("Doğru İşlem Numarasını Giriniz. ");
 
         }
     }
